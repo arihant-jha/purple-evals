@@ -6,4 +6,4 @@ langchain_community
 faker
 python-dotenv
 pandas
-openpyx
+openpyxl

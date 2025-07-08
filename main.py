@@ -145,10 +145,8 @@ def write_results_to_excel(json_path, excel_path):
     # Save changes
     wb.save(excel_path)
 
-# Example usage
-write_results_to_excel("results.json", "results.xlsx")
-
     
 
 if __name__ == "__main__":
     # run_experiment(50)
+    write_results_to_excel("results_gemma.json", "results_gemma.xlsx")

@@ -16,6 +16,8 @@ Requirements
 
 
 Process
-1. I intentionally run it on a very small mode, `gemini-2.5-flash-lite`, and we get `16%` accuracy with it.
+1. I intentionally ran it on a very small mode, `gemini-2.5-flash-lite`, and we get `16%` accuracy with it.
 2. Common mistake that the model makes is it ignores the `least` text and even when I ask it go give me 2nd least favourite dog, returns me 2nd favourite dog. In `50%` cases where it is correct it is because the number is `3rd` for which least and most favourite are same.
 3. Viewing the results in a viewable format.
+![results-gemma.xlsx](image-1.png)
+4. 
