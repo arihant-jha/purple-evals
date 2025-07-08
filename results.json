@@ -1,0 +1,346 @@
+[
+    {
+        "prompt": "You are a helpful agent who will answer which is my 1th favorite cat and 4th least favorite dog\nDominic Roberts is my 1th favorite cat\nScott Gibson is my 2th favorite cat\nJohn Lynch is my 3th favorite cat\nErin Livingston is my 4th favorite cat\nRachael Roberts is my 5th favorite cat\nJeremy Tucker is my 1th favorite dog\nKiara Clayton is my 2th favorite dog\nBrandon Ferguson is my 3th favorite dog\nStacey Shannon is my 4th favorite dog\nNicole Hutchinson is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Dominic Roberts",
+        "llm_dog": "Stacey Shannon",
+        "ans_cat": "Dominic Roberts",
+        "ans_dog": "Kiara Clayton",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 2th favorite cat and 4th least favorite dog\nMargaret Burke is my 1th favorite cat\nJoe Lee is my 2th favorite cat\nDavid Torres is my 3th favorite cat\nAshley May is my 4th favorite cat\nJustin Conrad is my 5th favorite cat\nAmanda Holland is my 1th favorite dog\nRobert Swanson is my 2th favorite dog\nChristopher Torres is my 3th favorite dog\nKerry Ibarra is my 4th favorite dog\nSamantha Roth is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Joe Lee",
+        "llm_dog": "Kerry Ibarra",
+        "ans_cat": "Joe Lee",
+        "ans_dog": "Robert Swanson",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 1th favorite cat and 2th least favorite dog\nBonnie Smith is my 1th favorite cat\nLeslie Gutierrez is my 2th favorite cat\nStephanie Wise is my 3th favorite cat\nBrendan Lee is my 4th favorite cat\nMonique Gonzales MD is my 5th favorite cat\nRita Wright is my 1th favorite dog\nJames Stewart is my 2th favorite dog\nSarah Davis is my 3th favorite dog\nNicole Brown is my 4th favorite dog\nSteven Calderon is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Bonnie Smith",
+        "llm_dog": "James Stewart",
+        "ans_cat": "Bonnie Smith",
+        "ans_dog": "Nicole Brown",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 1th favorite cat and 5th least favorite dog\nLisa Morales is my 1th favorite cat\nCassidy Quinn is my 2th favorite cat\nJoshua Oneill is my 3th favorite cat\nAmanda Duncan is my 4th favorite cat\nAnthony Chen is my 5th favorite cat\nAndrew Durham is my 1th favorite dog\nMary Lane is my 2th favorite dog\nMary Harris is my 3th favorite dog\nJessica Hall is my 4th favorite dog\nLauren Young is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Lisa Morales",
+        "llm_dog": "Lauren Young",
+        "ans_cat": "Lisa Morales",
+        "ans_dog": "Andrew Durham",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 5th favorite cat and 2th least favorite dog\nCrystal Brown is my 1th favorite cat\nJulie Salas is my 2th favorite cat\nPeter Ortiz is my 3th favorite cat\nBradley Dawson is my 4th favorite cat\nMichael Anderson is my 5th favorite cat\nJonathan Richards is my 1th favorite dog\nMichael Davis is my 2th favorite dog\nRobert Jones is my 3th favorite dog\nEmily Singleton is my 4th favorite dog\nJamie Baldwin is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Michael Anderson",
+        "llm_dog": "Robert Jones",
+        "ans_cat": "Michael Anderson",
+        "ans_dog": "Emily Singleton",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 5th favorite cat and 2th least favorite dog\nMandy Cunningham is my 1th favorite cat\nTommy Kim is my 2th favorite cat\nMary Jones is my 3th favorite cat\nMrs. Kathleen Spears DDS is my 4th favorite cat\nErica Tate is my 5th favorite cat\nLuis Brown is my 1th favorite dog\nJanice Williams is my 2th favorite dog\nStacy Mitchell is my 3th favorite dog\nNicholas Sullivan is my 4th favorite dog\nMonique Salinas is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Erica Tate",
+        "llm_dog": "Janice Williams",
+        "ans_cat": "Erica Tate",
+        "ans_dog": "Nicholas Sullivan",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 1th favorite cat and 5th least favorite dog\nDan Mack is my 1th favorite cat\nErin Patel is my 2th favorite cat\nFrancisco Lopez is my 3th favorite cat\nTara Bryant is my 4th favorite cat\nChristina Mendoza is my 5th favorite cat\nJonathan Walker is my 1th favorite dog\nLinda Fry is my 2th favorite dog\nFelicia May is my 3th favorite dog\nMichelle Taylor is my 4th favorite dog\nAlyssa Walker is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Dan Mack",
+        "llm_dog": "Alyssa Walker",
+        "ans_cat": "Dan Mack",
+        "ans_dog": "Jonathan Walker",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 4th favorite cat and 3th least favorite dog\nCynthia Bailey is my 1th favorite cat\nScott Pacheco is my 2th favorite cat\nBrooke Richard is my 3th favorite cat\nMichelle Moreno is my 4th favorite cat\nTaylor Peck is my 5th favorite cat\nJohn Roberts is my 1th favorite dog\nJacob Serrano is my 2th favorite dog\nJacob Shelton is my 3th favorite dog\nShannon Petty is my 4th favorite dog\nGregory Baldwin is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Michelle Moreno",
+        "llm_dog": "Jacob Shelton",
+        "ans_cat": "Michelle Moreno",
+        "ans_dog": "Jacob Shelton",
+        "accurate": true
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 3th favorite cat and 5th least favorite dog\nPaige Hinton is my 1th favorite cat\nMaria Little is my 2th favorite cat\nKrista Davila is my 3th favorite cat\nJohn Sweeney is my 4th favorite cat\nTheresa Carey is my 5th favorite cat\nEmily Smith is my 1th favorite dog\nMargaret Crane is my 2th favorite dog\nGary Palmer is my 3th favorite dog\nTammy Martinez is my 4th favorite dog\nTimothy Jones is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Krista Davila",
+        "llm_dog": "Timothy Jones",
+        "ans_cat": "Krista Davila",
+        "ans_dog": "Emily Smith",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 5th favorite cat and 2th least favorite dog\nMr. Christopher Jones PhD is my 1th favorite cat\nAdam Frost is my 2th favorite cat\nGuy Rivera is my 3th favorite cat\nTimothy Lee is my 4th favorite cat\nJennifer Brown is my 5th favorite cat\nWilliam Gray is my 1th favorite dog\nNina Knight is my 2th favorite dog\nDaisy Davis is my 3th favorite dog\nCynthia Howard is my 4th favorite dog\nLarry Gutierrez is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Jennifer Brown",
+        "llm_dog": "William Gray",
+        "ans_cat": "Jennifer Brown",
+        "ans_dog": "Cynthia Howard",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 2th favorite cat and 1th least favorite dog\nJohnny Schmidt is my 1th favorite cat\nJeffrey Fuentes is my 2th favorite cat\nRobert Rivera is my 3th favorite cat\nCarl Allen is my 4th favorite cat\nSandra Lewis is my 5th favorite cat\nKaren Turner is my 1th favorite dog\nSean Simmons is my 2th favorite dog\nJessica Griffin is my 3th favorite dog\nSusan Wright is my 4th favorite dog\nValerie Frazier DDS is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Jeffrey Fuentes",
+        "llm_dog": "Karen Turner",
+        "ans_cat": "Jeffrey Fuentes",
+        "ans_dog": "Valerie Frazier DDS",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 2th favorite cat and 2th least favorite dog\nKimberly Molina is my 1th favorite cat\nJennifer Ray is my 2th favorite cat\nJason Krause is my 3th favorite cat\nJennifer Allen is my 4th favorite cat\nJeffrey Martin is my 5th favorite cat\nElizabeth Heath is my 1th favorite dog\nCalvin Fleming is my 2th favorite dog\nCassandra Price is my 3th favorite dog\nJustin French is my 4th favorite dog\nJulie Wang is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Jennifer Ray",
+        "llm_dog": "Calvin Fleming",
+        "ans_cat": "Jennifer Ray",
+        "ans_dog": "Justin French",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 2th favorite cat and 2th least favorite dog\nPaul Hernandez is my 1th favorite cat\nMorgan Montoya is my 2th favorite cat\nAdam Weber is my 3th favorite cat\nZachary Herman is my 4th favorite cat\nCody Lopez is my 5th favorite cat\nChristopher Davis is my 1th favorite dog\nCheryl Smith is my 2th favorite dog\nAllison Wood is my 3th favorite dog\nKimberly Hurley is my 4th favorite dog\nDiane Barber is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Morgan Montoya",
+        "llm_dog": "Cheryl Smith",
+        "ans_cat": "Morgan Montoya",
+        "ans_dog": "Kimberly Hurley",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 1th favorite cat and 2th least favorite dog\nScott Hunt is my 1th favorite cat\nCynthia Long is my 2th favorite cat\nTim Foster is my 3th favorite cat\nStanley Calhoun is my 4th favorite cat\nMr. Timothy Schroeder DVM is my 5th favorite cat\nBrianna Mack is my 1th favorite dog\nSara Nguyen is my 2th favorite dog\nBrandi Green is my 3th favorite dog\nJuan Young is my 4th favorite dog\nGerald Rogers is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Scott Hunt",
+        "llm_dog": "Sara Nguyen",
+        "ans_cat": "Scott Hunt",
+        "ans_dog": "Juan Young",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 3th favorite cat and 3th least favorite dog\nKeith Haley is my 1th favorite cat\nBobby Miles is my 2th favorite cat\nMark Wright is my 3th favorite cat\nChad Wong is my 4th favorite cat\nMichael Stephens is my 5th favorite cat\nJason Best is my 1th favorite dog\nDavid Griffin is my 2th favorite dog\nJennifer Lopez is my 3th favorite dog\nFrank Jackson is my 4th favorite dog\nMichelle Petersen is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Mark Wright",
+        "llm_dog": "Jennifer Lopez",
+        "ans_cat": "Mark Wright",
+        "ans_dog": "Jennifer Lopez",
+        "accurate": true
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 5th favorite cat and 2th least favorite dog\nRobert Phillips is my 1th favorite cat\nJoshua Edwards is my 2th favorite cat\nCharles Kirby is my 3th favorite cat\nJohn Davis is my 4th favorite cat\nRichard Fletcher is my 5th favorite cat\nClaudia Watson is my 1th favorite dog\nDylan Powell is my 2th favorite dog\nLisa Khan is my 3th favorite dog\nMatthew Maxwell is my 4th favorite dog\nAbigail Jackson is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Richard Fletcher",
+        "llm_dog": "Lisa Khan",
+        "ans_cat": "Richard Fletcher",
+        "ans_dog": "Matthew Maxwell",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 5th favorite cat and 1th least favorite dog\nBrandi Gutierrez is my 1th favorite cat\nPamela Patel is my 2th favorite cat\nJustin Wilkins is my 3th favorite cat\nTiffany Moran is my 4th favorite cat\nMiranda Barajas is my 5th favorite cat\nJonathan Hanna is my 1th favorite dog\nGrace Nelson is my 2th favorite dog\nJames Smith is my 3th favorite dog\nJessica Johnson is my 4th favorite dog\nThomas Flores is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Miranda Barajas",
+        "llm_dog": "Thomas Flores",
+        "ans_cat": "Miranda Barajas",
+        "ans_dog": "Thomas Flores",
+        "accurate": true
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 5th favorite cat and 5th least favorite dog\nSamantha Sullivan is my 1th favorite cat\nThomas Craig is my 2th favorite cat\nLarry Gardner is my 3th favorite cat\nJessica Walter is my 4th favorite cat\nThomas Rodriguez is my 5th favorite cat\nSusan Terry is my 1th favorite dog\nDylan Holmes is my 2th favorite dog\nMorgan Cummings is my 3th favorite dog\nTeresa Bishop is my 4th favorite dog\nVirginia Morris is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Thomas Rodriguez",
+        "llm_dog": "Virginia Morris",
+        "ans_cat": "Thomas Rodriguez",
+        "ans_dog": "Susan Terry",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 5th favorite cat and 5th least favorite dog\nNatalie Green is my 1th favorite cat\nMichelle Jackson is my 2th favorite cat\nCraig Vazquez is my 3th favorite cat\nBrenda Rodriguez is my 4th favorite cat\nZachary Lewis is my 5th favorite cat\nCarla Burns is my 1th favorite dog\nJohn Rosario is my 2th favorite dog\nScott Garcia is my 3th favorite dog\nLouis Woods is my 4th favorite dog\nBailey Carter is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Zachary Lewis",
+        "llm_dog": "Bailey Carter",
+        "ans_cat": "Zachary Lewis",
+        "ans_dog": "Carla Burns",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 1th favorite cat and 4th least favorite dog\nTammy Gray is my 1th favorite cat\nXavier Stanley is my 2th favorite cat\nAllison Wells is my 3th favorite cat\nKaylee Jensen is my 4th favorite cat\nKathryn Garrett is my 5th favorite cat\nTerry King is my 1th favorite dog\nAllison Freeman is my 2th favorite dog\nCassandra Williams is my 3th favorite dog\nJennifer Martinez is my 4th favorite dog\nMonica Leonard is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Tammy Gray",
+        "llm_dog": "Jennifer Martinez",
+        "ans_cat": "Tammy Gray",
+        "ans_dog": "Allison Freeman",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 1th favorite cat and 1th least favorite dog\nKelly Mckee is my 1th favorite cat\nKathleen Santos is my 2th favorite cat\nHarold Richards is my 3th favorite cat\nVictoria Matthews is my 4th favorite cat\nPatricia Leblanc is my 5th favorite cat\nPhyllis Alvarez is my 1th favorite dog\nKimberly Hodge is my 2th favorite dog\nMelissa Smith is my 3th favorite dog\nRodney Crawford is my 4th favorite dog\nAutumn Holloway is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Kelly Mckee",
+        "llm_dog": "Phyllis Alvarez",
+        "ans_cat": "Kelly Mckee",
+        "ans_dog": "Autumn Holloway",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 1th favorite cat and 2th least favorite dog\nMelissa Lindsey is my 1th favorite cat\nAnna Johnson is my 2th favorite cat\nValerie Allison is my 3th favorite cat\nSheila Byrd is my 4th favorite cat\nJeffrey Roman is my 5th favorite cat\nRyan Dickerson is my 1th favorite dog\nMark Webster is my 2th favorite dog\nSally Davis is my 3th favorite dog\nHarold Simmons is my 4th favorite dog\nDavid Watkins is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Melissa Lindsey",
+        "llm_dog": "Mark Webster",
+        "ans_cat": "Melissa Lindsey",
+        "ans_dog": "Harold Simmons",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 4th favorite cat and 3th least favorite dog\nJonathon Carlson is my 1th favorite cat\nJason Hoffman is my 2th favorite cat\nVictoria Rodriguez is my 3th favorite cat\nBriana Fox is my 4th favorite cat\nMary Mercado is my 5th favorite cat\nSean Soto is my 1th favorite dog\nDenise Scott is my 2th favorite dog\nLarry Cobb is my 3th favorite dog\nNancy Wood is my 4th favorite dog\nNicholas Burch is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Briana Fox",
+        "llm_dog": "Larry Cobb",
+        "ans_cat": "Briana Fox",
+        "ans_dog": "Larry Cobb",
+        "accurate": true
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 1th favorite cat and 4th least favorite dog\nMichelle Sullivan is my 1th favorite cat\nMichael Weaver DDS is my 2th favorite cat\nLinda Gonzalez is my 3th favorite cat\nJohn Shaw is my 4th favorite cat\nJames Rice is my 5th favorite cat\nRachel Miles is my 1th favorite dog\nNicole Hicks is my 2th favorite dog\nJerry Gonzales is my 3th favorite dog\nBrian Jones is my 4th favorite dog\nKristy Walker MD is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "John Shaw",
+        "llm_dog": "Brian Jones",
+        "ans_cat": "Michelle Sullivan",
+        "ans_dog": "Nicole Hicks",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 2th favorite cat and 2th least favorite dog\nDavid Jones is my 1th favorite cat\nJoe Hansen is my 2th favorite cat\nKevin Moreno is my 3th favorite cat\nJacqueline Brown is my 4th favorite cat\nThomas Berry is my 5th favorite cat\nWillie Flores is my 1th favorite dog\nChristopher Owens is my 2th favorite dog\nBeth Chapman is my 3th favorite dog\nKim Hamilton is my 4th favorite dog\nShawn Reed is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Joe Hansen",
+        "llm_dog": "Christopher Owens",
+        "ans_cat": "Joe Hansen",
+        "ans_dog": "Kim Hamilton",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 3th favorite cat and 2th least favorite dog\nMatthew Holloway is my 1th favorite cat\nRobert Thompson is my 2th favorite cat\nKenneth Rodriguez is my 3th favorite cat\nJohn Chaney is my 4th favorite cat\nKristin Morris is my 5th favorite cat\nGregory Hernandez is my 1th favorite dog\nPaul Freeman is my 2th favorite dog\nJulian Cummings is my 3th favorite dog\nSamantha Whitehead is my 4th favorite dog\nPaula Ramirez is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Kenneth Rodriguez",
+        "llm_dog": "Paul Freeman",
+        "ans_cat": "Kenneth Rodriguez",
+        "ans_dog": "Samantha Whitehead",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 5th favorite cat and 4th least favorite dog\nEric Petty is my 1th favorite cat\nSteven Franco is my 2th favorite cat\nJames Robertson is my 3th favorite cat\nScott Green is my 4th favorite cat\nRobin Bauer is my 5th favorite cat\nKevin Underwood is my 1th favorite dog\nMr. Bobby Butler is my 2th favorite dog\nKerry Taylor is my 3th favorite dog\nMargaret Smith is my 4th favorite dog\nMr. Joe Ortega is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Robin Bauer",
+        "llm_dog": "Margaret Smith",
+        "ans_cat": "Robin Bauer",
+        "ans_dog": "Mr. Bobby Butler",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 2th favorite cat and 2th least favorite dog\nSarah Johnston is my 1th favorite cat\nAdam Haynes is my 2th favorite cat\nHeather Nguyen is my 3th favorite cat\nPatricia Lawrence is my 4th favorite cat\nJeffrey Crawford is my 5th favorite cat\nNicholas Bolton is my 1th favorite dog\nSusan Diaz is my 2th favorite dog\nJamie Nichols is my 3th favorite dog\nChristopher Fields is my 4th favorite dog\nMonica Murphy is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Adam Haynes",
+        "llm_dog": "Susan Diaz",
+        "ans_cat": "Adam Haynes",
+        "ans_dog": "Christopher Fields",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 3th favorite cat and 3th least favorite dog\nShannon Hall is my 1th favorite cat\nCheryl Park is my 2th favorite cat\nErika Russo is my 3th favorite cat\nJames Wright MD is my 4th favorite cat\nJustin Price is my 5th favorite cat\nJoel Cowan is my 1th favorite dog\nKenneth Hernandez is my 2th favorite dog\nTaylor Ramirez is my 3th favorite dog\nJane Smith is my 4th favorite dog\nDonald Perez is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Erika Russo",
+        "llm_dog": "Taylor Ramirez",
+        "ans_cat": "Erika Russo",
+        "ans_dog": "Taylor Ramirez",
+        "accurate": true
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 5th favorite cat and 4th least favorite dog\nMrs. Regina Craig is my 1th favorite cat\nRoger Bass is my 2th favorite cat\nDean Mcdaniel is my 3th favorite cat\nAmanda Gardner is my 4th favorite cat\nJames Jensen is my 5th favorite cat\nKathleen Taylor is my 1th favorite dog\nDavid Johnson is my 2th favorite dog\nMartin Perez is my 3th favorite dog\nJohn Fox is my 4th favorite dog\nElizabeth Guzman is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "James Jensen",
+        "llm_dog": "John Fox",
+        "ans_cat": "James Jensen",
+        "ans_dog": "David Johnson",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 2th favorite cat and 5th least favorite dog\nAustin Michael is my 1th favorite cat\nSara Bryant is my 2th favorite cat\nJoanna Gonzalez is my 3th favorite cat\nMadison Rodriguez is my 4th favorite cat\nCharles Hunt is my 5th favorite cat\nAmber Garcia is my 1th favorite dog\nLeslie Neal is my 2th favorite dog\nRobert Rodriguez is my 3th favorite dog\nAndrew Copeland is my 4th favorite dog\nMichael Montes is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Sara Bryant",
+        "llm_dog": "Michael Montes",
+        "ans_cat": "Sara Bryant",
+        "ans_dog": "Amber Garcia",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 1th favorite cat and 2th least favorite dog\nAnita Torres is my 1th favorite cat\nGabriel Lopez is my 2th favorite cat\nDawn Edwards is my 3th favorite cat\nThomas Sawyer is my 4th favorite cat\nNicolas Ball is my 5th favorite cat\nJanice Wheeler is my 1th favorite dog\nAnna Garza is my 2th favorite dog\nCathy Hess is my 3th favorite dog\nRandy Gonzalez is my 4th favorite dog\nLinda Ramirez is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Anita Torres",
+        "llm_dog": "Anna Garza",
+        "ans_cat": "Anita Torres",
+        "ans_dog": "Randy Gonzalez",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 4th favorite cat and 2th least favorite dog\nDonna Thompson is my 1th favorite cat\nTheresa Espinoza is my 2th favorite cat\nCurtis Garrett is my 3th favorite cat\nMichael Fisher is my 4th favorite cat\nKaren Villa is my 5th favorite cat\nEdward Martinez is my 1th favorite dog\nRobert Cooper is my 2th favorite dog\nHannah Gilbert is my 3th favorite dog\nStacie Hall is my 4th favorite dog\nHenry Lee is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Michael Fisher",
+        "llm_dog": "Robert Cooper",
+        "ans_cat": "Michael Fisher",
+        "ans_dog": "Stacie Hall",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 4th favorite cat and 2th least favorite dog\nErica Marshall is my 1th favorite cat\nChris Bridges is my 2th favorite cat\nAlicia Lindsey is my 3th favorite cat\nMichael Williams is my 4th favorite cat\nJason Lewis is my 5th favorite cat\nTimothy Mack is my 1th favorite dog\nMaria Davis is my 2th favorite dog\nGlenn Anderson is my 3th favorite dog\nLarry Ramirez is my 4th favorite dog\nMark Lowe is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Michael Williams",
+        "llm_dog": "Maria Davis",
+        "ans_cat": "Michael Williams",
+        "ans_dog": "Larry Ramirez",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 3th favorite cat and 1th least favorite dog\nChristopher Dominguez is my 1th favorite cat\nSarah Sanchez is my 2th favorite cat\nChristopher Perry is my 3th favorite cat\nSusan Arroyo is my 4th favorite cat\nAlejandro Hammond is my 5th favorite cat\nTracy Mcfarland is my 1th favorite dog\nRyan Kidd is my 2th favorite dog\nDonald Jackson is my 3th favorite dog\nMary Sanchez is my 4th favorite dog\nRobert Sanchez is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Christopher Perry",
+        "llm_dog": "Tracy Mcfarland",
+        "ans_cat": "Christopher Perry",
+        "ans_dog": "Robert Sanchez",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 4th favorite cat and 4th least favorite dog\nShannon Stewart is my 1th favorite cat\nBradley Williams is my 2th favorite cat\nBrian Perez is my 3th favorite cat\nCaleb Schroeder is my 4th favorite cat\nAlicia Silva is my 5th favorite cat\nBrian Snyder is my 1th favorite dog\nErin Barnett is my 2th favorite dog\nRobert Woodward is my 3th favorite dog\nDr. Kelli Brock MD is my 4th favorite dog\nKenneth Nichols is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Caleb Schroeder",
+        "llm_dog": "Dr. Kelli Brock MD",
+        "ans_cat": "Caleb Schroeder",
+        "ans_dog": "Erin Barnett",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 3th favorite cat and 3th least favorite dog\nAndrew Ewing is my 1th favorite cat\nNicole Williams is my 2th favorite cat\nRegina Sandoval is my 3th favorite cat\nMelanie Blair is my 4th favorite cat\nKimberly Ward is my 5th favorite cat\nDiana Bailey is my 1th favorite dog\nShannon Cline is my 2th favorite dog\nNicholas Hurst is my 3th favorite dog\nJodi Cook is my 4th favorite dog\nHaley Murray is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Regina Sandoval",
+        "llm_dog": "Nicholas Hurst",
+        "ans_cat": "Regina Sandoval",
+        "ans_dog": "Nicholas Hurst",
+        "accurate": true
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 2th favorite cat and 4th least favorite dog\nKarl Kelley is my 1th favorite cat\nFrancis Smith is my 2th favorite cat\nTina Taylor is my 3th favorite cat\nJennifer Webster is my 4th favorite cat\nMichael Horton is my 5th favorite cat\nRose Downs is my 1th favorite dog\nChristopher Torres is my 2th favorite dog\nJoseph Sanchez is my 3th favorite dog\nChristopher Martin is my 4th favorite dog\nDavid Prince is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Francis Smith",
+        "llm_dog": "Christopher Martin",
+        "ans_cat": "Francis Smith",
+        "ans_dog": "Christopher Torres",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 4th favorite cat and 1th least favorite dog\nGregory Garcia is my 1th favorite cat\nJonathan Hart is my 2th favorite cat\nEmily Dennis is my 3th favorite cat\nMark Duncan is my 4th favorite cat\nKaitlin Fischer is my 5th favorite cat\nMichael Long is my 1th favorite dog\nMichael Garner is my 2th favorite dog\nCarol Mcdonald is my 3th favorite dog\nVincent Strickland is my 4th favorite dog\nJohn Morales is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Mark Duncan",
+        "llm_dog": "Michael Long",
+        "ans_cat": "Mark Duncan",
+        "ans_dog": "John Morales",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 2th favorite cat and 4th least favorite dog\nAmanda Lowery is my 1th favorite cat\nBrian Gonzales is my 2th favorite cat\nGloria Ruiz is my 3th favorite cat\nTrevor Bowen is my 4th favorite cat\nEdwin Figueroa is my 5th favorite cat\nTodd Griffin is my 1th favorite dog\nJohn Moody Jr. is my 2th favorite dog\nLauren Luna is my 3th favorite dog\nKristin Sandoval is my 4th favorite dog\nAnthony Schaefer is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Brian Gonzales",
+        "llm_dog": "Kristin Sandoval",
+        "ans_cat": "Brian Gonzales",
+        "ans_dog": "John Moody Jr.",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 2th favorite cat and 1th least favorite dog\nDiana French is my 1th favorite cat\nDaniel Roberson is my 2th favorite cat\nLynn Bartlett is my 3th favorite cat\nTiffany Phillips is my 4th favorite cat\nRichard Palmer is my 5th favorite cat\nEmily Hall is my 1th favorite dog\nWilliam Miranda is my 2th favorite dog\nCraig Lawson is my 3th favorite dog\nScott Sellers is my 4th favorite dog\nWanda Lopez is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Daniel Roberson",
+        "llm_dog": "Emily Hall",
+        "ans_cat": "Daniel Roberson",
+        "ans_dog": "Wanda Lopez",
+        "accurate": false
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 3th favorite cat and 3th least favorite dog\nChris Morris is my 1th favorite cat\nJonathon Williams is my 2th favorite cat\nJasmin Preston is my 3th favorite cat\nTodd Sanchez is my 4th favorite cat\nTrevor Morgan is my 5th favorite cat\nNatasha Hansen is my 1th favorite dog\nHeather Tran is my 2th favorite dog\nAnn Patterson is my 3th favorite dog\nKatherine Morris is my 4th favorite dog\nMelissa Maldonado is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Jasmin Preston",
+        "llm_dog": "Ann Patterson",
+        "ans_cat": "Jasmin Preston",
+        "ans_dog": "Ann Patterson",
+        "accurate": true
+    },
+    {
+        "prompt": "You are a helpful agent who will answer which is my 1th favorite cat and 4th least favorite dog\nTanya Davis is my 1th favorite cat\nRay Schmidt is my 2th favorite cat\nNatasha Griffin is my 3th favorite cat\nStephanie Wilson is my 4th favorite cat\nLisa Graham is my 5th favorite cat\nMs. Tanya Reid PhD is my 1th favorite dog\nChristine Thompson is my 2th favorite dog\nLarry Myers is my 3th favorite dog\nAmber Garcia is my 4th favorite dog\nJasmine Salazar is my 5th favorite dog\n\nFormat the answer in json with cat and dog keys\nExample: {\"cat\": \"cat_name\", \"dog\": \"dog_name\"}\nAnswer: ",
+        "llm_cat": "Tanya Davis",
+        "llm_dog": "Amber Garcia",
+        "ans_cat": "Tanya Davis",
+        "ans_dog": "Christine Thompson",
+        "accurate": false
+    }
+]
