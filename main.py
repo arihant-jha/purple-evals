@@ -145,8 +145,11 @@ def write_results_to_excel(json_path, excel_path):
     # Save changes
     wb.save(excel_path)
 
+import dspy
+lm = dspy.LM("gemini/gemma-3-27b-it", api_key=os.getenv("GEMINI_API_KEY"))
+dspy.configure(lm=lm)
     
 
 if __name__ == "__main__":
     # run_experiment(50)
-    write_results_to_excel("results_gemma.json", "results_gemma.xlsx")
+    # write_results_to_excel("results_gemma.json", "results_gemma.xlsx")
